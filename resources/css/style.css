@@ -1,0 +1,107 @@
+body {
+  /* The below code programs the gradient for the background of the website */
+  /* For browsers that do not support gradients */
+  background-color: #ffe066;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #ffad33, #ffe066);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #ffad33, #ffe066);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+nav {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2,
+p {
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+/* Style for the main navigation bar */
+
+nav.mainnav {
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.mainnav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mainnav a:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+/* Styling for the menu bar */
+
+/* Styling for the Soup, Salad, and Desert boxes */
+
+.container {
+  width: 50%;
+}
+
+/* Specific styling for the header and footer */
+
+header, footer {
+  border-style: double;
+  color: black;
+  font-family: Verdana, sans-serif;
+  clear:left;
+  font-size: 20px;
+  text-align: center;
+  padding: 1em 0;
+  margin-left: 10px;
+}
+
+#soups, .soup {
+  background-color: #ff5050;
+  color: white;
+}
+
+#salads, .salad {
+  background-color: #29a329;
+  color: white;
+}
+
+#deserts, .desert {
+  background-color: #9999ff;
+  color: white;
+}
+
+/* styles the image in each container */
+
+aside {
+  float: left;
+  max-width: 200px;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+/* styles the specific food items */
+section {
+  margin-left: 210px;
+  padding: 1em;
+  overflow: hidden;
+}
+
+section ol {
+  list-style-type: none;
+}
+
+section li {
+  margin-bottom: 2em;
+}
